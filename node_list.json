@@ -1,0 +1,21 @@
+{
+    "name": "ComfyUI-Gemini-Hub",
+    "description": "The ultimate Gemini Hub for ComfyUI with Text-to-Speech, Speech-to-Text, Chat, and all Google AI capabilities in one place",
+    "version": "1.0.0",
+    "author": "Makhmudjon Inadullaev",
+    "license": "MIT",
+    "repository": "https://github.com/makhmudjon-inadullaev/comfyui-gemini-hub",
+    "keywords": ["gemini", "hub", "collection", "tts", "stt", "chat", "google", "ai"],
+    "nodes": [
+        "Gemini Text To Speech",
+        "Gemini Speech To Text", 
+        "Gemini Chat"
+    ],
+    "install_type": "git-clone",
+    "requirements": [
+        "google-genai",
+        "torch",
+        "torchaudio"
+    ],
+    "python_version": ">=3.8"
+}
